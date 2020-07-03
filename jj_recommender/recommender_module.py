@@ -46,15 +46,16 @@ if __name__ == '__main__':
     #will NOT be run.
 
     ITEMS = ['Toy Story 1',
-             'Toy Story 2',
-             'Toy Story 3',
+             'Life of Pi',
+             'La La Land',
              'Shawshank Redemption',
-             'Something else',
-             'Some other thing',
-             'basil',
-             'thyme',
-             'jasmine']
+             'Forest Gamp',
+             'Bohemian Rapsody',
+             'Mr. Nobody',
+             'The Tree of Life',
+             'Portrait of Dorian Gray',
+             'Parasite']
 
-    rec = Recommender(ITEMS)
+    rec = Recommender(MOVIES)
     result = rec.recommend_random(3)
     print(result)
