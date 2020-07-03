@@ -51,9 +51,9 @@ if __name__ == '__main__':
              'Shawshank Redemption',
              'Something else',
              'Some other thing',
-             'basil',
-             'thyme',
-             'jasmine']
+             'basil is not a spice',
+             'thyme is a herb goddamit',
+             'jasmine? Not a spice!']
 
     rec = Recommender(ITEMS)
     result = rec.recommend_random(3)
