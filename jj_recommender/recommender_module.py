@@ -56,6 +56,6 @@ if __name__ == '__main__':
              'Portrait of Dorian Gray',
              'Parasite']
 
-    rec = Recommender(ITEMS)
+    rec = Recommender(MOVIES)
     result = rec.recommend_random(3)
     print(result)
