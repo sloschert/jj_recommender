@@ -49,13 +49,18 @@ if __name__ == '__main__':
              'Life of Pi',
              'La La Land',
              'Shawshank Redemption',
+             'Something else',
+             'Some other thing',
+             'basil is not a spice',
+             'thyme is a herb goddamit',
+             'jasmine? Not a spice!',
              'Forest Gamp',
              'Bohemian Rapsody',
              'Mr. Nobody',
              'The Tree of Life',
              'Portrait of Dorian Gray',
              'Parasite']
-
-    rec = Recommender(MOVIES)
+    
+    rec = Recommender(ITEMS)
     result = rec.recommend_random(3)
     print(result)
