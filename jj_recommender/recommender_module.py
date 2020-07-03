@@ -26,7 +26,7 @@ class Recommender:
         - results (list)
 
         """
-        results = random.choices(self.items, k = num)
+        results = random.sample(self.items, k = num)
         results = [i.lower() for i in results]
         return results
 
